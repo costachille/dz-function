@@ -6,7 +6,7 @@
  
  Для тестирования вашего решения, раскомментируйте блок внизу файла.
  */
-func getTextSize(_ str: [String], completion: (Int) -> Void) {
+func getTextSize(_ str: String, completion: (Int) -> Void) {
     let length = str.count
     completion(length)
 }
